@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đặt món - Cơm Quê 6 Xị</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7f2ec;
+      margin: 0;
+      padding: 0;
+    }
+     body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-image: url(ship.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
+}
+    header {
+      background-color: #7a4b21;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    form {
+      max-width: 500px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-top: 5px;
+    }
+    button {
+      background-color: #7a4b21;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      margin-top: 20px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #5e3517;
+    }
+    .back-home {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .back-home a {
+      color: #7a4b21;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Đặt món - Cơm Quê 6 Xị</h1>
+  </header>
+
+  <form action="https://getform.io/f/bnlnpqpb" method="POST">
+    <label>Họ và tên</label>
+    <input type="text" name="Họ và tên" required>
+
+    <label>Số điện thoại</label>
+    <input type="tel" name="Số điện thoại" required>
+
+    <label>Địa chỉ giao hàng</label>
+    <textarea name="Địa chỉ" rows="3" required></textarea>
+
+    <label>Món muốn đặt</label>
+    <input type="text" name="Món ăn" placeholder="Ví dụ: Cơm sườn, Canh chua cá lóc..." required>
+
+    <label>Ghi chú thêm</label>
+    <textarea name="Ghi chú" rows="3"></textarea>
+
+    <button type="submit">Gửi đơn hàng</button>
+  </form>
+
+  <div class="back-home">
+    <a href="trangchu.html">← Quay lại Trang chủ</a>
+  </div>
+</body>
+</html>

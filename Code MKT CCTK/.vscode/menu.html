@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Cơm Quê 6 Xị</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #fffaf2;
+      color: #333;
+    }
+     body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-image: url(br.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
+}
+
+    header {
+      background-color: #7a4b21;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 50px;
+    }
+    header h1 {
+      font-family: "Times New Roman", serif;
+      font-size: 26px;
+      letter-spacing: 1px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .menu-header {
+      background-image: url("https://images.unsplash.com/photo-1625944230943-0c8384b6d6f7");
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .menu-header h2 {
+      font-size: 38px;
+      margin: 0;
+    }
+    .menu-section {
+      padding: 50px 80px;
+      text-align: center;
+    }
+    .menu-section h3 {
+      color: #7a4b21;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .menu-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .menu-item {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 250px;
+      padding: 15px;
+    }
+    .menu-item img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .menu-item h4 {
+      color: #7a4b21;
+      margin-top: 10px;
+      font-size: 18px;
+    }
+    .menu-item p {
+      margin: 5px 0;
+      color: #666;
+    }
+    .menu-item .price {
+      color: #b85c38;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #7a4b21;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CƠM QUÊ 6 XỊ</h1>
+    <nav>
+      <a href="trangchu.html">Trang chủ</a>
+      <a href="dadon.html">Đặt món online</a>
+      <a href="menu.html">Menu</a>
+      <a href="lienhe.html">Liên hệ</a>
+      <a href="gioithieu.html">Giới thiệu</a>
+    </nav>
+  </header>
+
+  <div class="menu-header">
+
+    <h2>Thực đơn Cơm Quê 6 Xị</h2>
+    <p>Đậm đà hương vị quê hương – Tươi ngon mỗi ngày!!!</p>
+  </div>
+  <div style="text-align:center; margin-top: 20px;">
+  <a href="trangchu.html" 
+     style="background-color:#7a4b21; color:white; padding:10px 20px; border-radius:6px; 
+            text-decoration:none; font-weight:bold;">
+     ← Trở về Trang chủ
+  </a>
+</div>
+
+  <section class="menu-section">
+    <h3>Món Chính</h3>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="cákho.jpg" alt="Cá kho tộ">
+        <h4>Cá kho tộ</h4>
+        <p>Thịt cá săn chắc, nước kho đậm vị.</p>
+        <p class="price">78.000đ</p>
+      </div>
+      <div class="menu-item">
+        <img src="khoqua.jpg" alt="Canh khổ qua nhồi thịt ">
+        <h4>Canh khổ qua nhồi thịt </h4>
+        <p>Canh khổ qua nhồi thịt đắng nhẹ, ngọt thanh, thịt mềm béo hòa cùng nước canh thơm dịu, thanh mát dễ chịu.</p>
+        <p class="price">78.000đ</p>
+      </div>
+      <div class="menu-item">
+        <img src="suõnao.jpg" alt="Sườn xào chua ngọt">
+        <h4>Sườn xào chua ngọt</h4>
+        <p>Giòn rụm bên ngoài, mềm thơm bên trong.</p>
+        <p class="price">65.000đ</p>
+      </div>
+      <div class="menu-item">
+        <img src="thịt kho.jpg" alt="Thịt kho trứng">
+        <h4>Thịt kho trứng</h4>
+        <p>Món ăn dân dã, gợi nhớ bữa cơm mẹ nấu.</p>
+        <p class="price">65.000đ</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section">
+    <h3>Món Rau & Canh</h3>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="rau copy.jpg" alt="Rau xào tỏi">
+        <h4>Rau xào tỏi</h4>
+        <p>Đậm đà vị quê nhà.</p>
+        <p class="price">45.000đ</p>
+      </div>
+      <div class="menu-item">
+        <img src="mamcom.jpg" alt="Mâm cơm nhà">
+        <h4>Mâm cơm nhà</h4>
+        <p>Giải nhiệt, thanh mát, tốt cho sức khỏe.</p>
+        <p class="price">40.000đ</p>
+      </div>
+    </div>
+  </section>
+<div style="text-align:center; margin:40px 0;">
+  <a href="trangchu.html" 
+     style="background-color:#7a4b21; color:white; padding:10px 20px; border-radius:6px; 
+            text-decoration:none; font-weight:bold;">
+     ← Quay lại Trang chủ
+  </a>
+</div>
+<section class="menu-section">
+  <h3>Menu đầy đủ</h3>
+  <div style="text-align: center; margin-top: 20px;">
+    <img src="menu.jpg (2).jpeg" alt="Ảnh menu đầy đủ của Cơm Quê 6 Xị"
+         style="width: 90%; max-width: 900px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+    <p style="margin-top: 10px; color: #666;">(Bấm vào ảnh để xem rõ hơn nếu đang dùng điện thoại)</p>
+  </div>
+</section>
+
+  <footer>
+    © 2025 Cơm Quê 6 Xị | Hotline: 035 4123 512 | Facebook: @comque6xi
+  </footer>
+</body>
+</html>

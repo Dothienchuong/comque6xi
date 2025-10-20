@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên hệ - Cơm Quê 6 Xị</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #fffaf2;
+      color: #333;
+    }
+     body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-image: url(br.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
+}
+    header {
+      background-color: #7a4b21;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 50px;
+    }
+    header h1 {
+      font-family: "Times New Roman", serif;
+      font-size: 26px;
+      letter-spacing: 1px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .contact-header {
+      background-image: url("https://images.unsplash.com/photo-1589712235271-1e58b9e6bb83");
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .contact-header h2 {
+      font-size: 38px;
+      margin: 0;
+    }
+    .contact-info {
+      padding: 50px 80px;
+      text-align: center;
+    }
+    .contact-info h3 {
+      color: #7a4b21;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .info-box {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+    .info-item {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      padding: 20px;
+    }
+    .info-item h4 {
+      color: #7a4b21;
+      margin-bottom: 10px;
+    }
+    form {
+      background-color: #fff5e1;
+      padding: 30px;
+      border-radius: 10px;
+      width: 400px;
+      margin: 0 auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+    form button {
+      background-color: #7a4b21;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #5c3517;
+    }
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 40px;
+    }
+    footer {
+      background-color: #7a4b21;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+    .back-home {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .back-home a {
+      background-color: #7a4b21;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .back-home a:hover {
+      background-color: #5c3517;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CƠM QUÊ 6 XỊ</h1>
+    <nav>
+      <a href="index.html">Trang chủ</a>
+      <a href="datmon.html">Đặt món online</a>
+      <a href="menu.html">Menu</a>
+      <a href="lienhe.html">Liên hệ</a>
+      <a href="gioithieu.html">Giới thiệu</a>
+    </nav>
+  </header>
+
+  <div class="contact-header">
+    <h2>Liên hệ với Cơm Quê 6 Xị</h2>
+    <p>Chúng tôi luôn sẵn sàng lắng nghe bạn!</p>
+  </div>
+
+  <section class="contact-info">
+    <h3>Thông tin liên hệ</h3>
+    <div class="info-box">
+      <div class="info-item">
+        <h4>Địa chỉ</h4>
+        <p>123 Nguyễn Hữu Tiến, phường Tây Thạnh Tân Phú</p>
+      </div>
+      <div class="info-item">
+        <h4>Hotline</h4>
+        <p>035 4123 512</p>
+      </div>
+      <div class="info-item">
+        <h4>Email</h4>
+        <p>dothienchuong@gmail.com</p>
+      </div>
+      <div class="info-item">
+        <h4>Giờ mở cửa</h4>
+        <p>Thứ 2 - Chủ nhật: 7h00 - 21h00</p>
+      </div>
+    </div>
+
+    <h3>Gửi tin nhắn cho chúng tôi</h3>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Họ và tên" required>
+      <input type="tel" name="phone" placeholder="Số điện thoại" required>
+      <textarea name="message" rows="5" placeholder="Nội dung tin nhắn..." required></textarea>
+      <button type="submit">Gửi liên hệ</button>
+    </form>
+    <iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.13733290129!2d106.62004611471993!3d10.800042692309179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be125501fa1%3A0x9c54759afd0da5c!2zMTIzIE5ndXnhu4VuIEjhu691IFRp4buHbiwgVMOieSBUaMOgbmgsIFTDom4gUGjDuiwgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1698846185416!5m2!1svi!2s" 
+  width="100%" 
+  height="350" 
+  style="border:0; border-radius:10px;" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+
+
+
+      <a href="trangchu.html">← Quay lại Trang chủ</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Cơm Quê 6 Xị | Hotline: 035 4123 512 | Facebook: @comque6xi
+  </footer>
+</body>
+</html>
